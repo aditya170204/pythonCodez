@@ -35,6 +35,7 @@ for f in z:
     h=str(f)
     g.append(h)
     # print(type(h))
+    
 print(''.join(g))
     
 
