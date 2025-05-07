@@ -1,5 +1,5 @@
 def sort012( arr):
-        # code here
+        # code here WITHOUT USING INBUILT FUNCTIONS
         low=0
         mid=0
         high=len(arr)-1
@@ -15,4 +15,4 @@ def sort012( arr):
                 high-=1
         return arr
 
-print(sort012([1,0,2,1,0,2,0,1,2,2,0,2,1,0,2,1,2,0,1,2,]))
+print(sort012([1,0,2,1,0,2,0,1,2,2,0,2,1,0,2,1,2,0,1,2]))
