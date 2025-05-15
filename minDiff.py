@@ -8,4 +8,4 @@ def getMinDiff(arr,k):
             diff=min(diff,upper-lower)
         return diff
 
-print(getMinDiff([1, 5, 8, 10],2))
+print(getMinDiff([1, 5, 8, 10,12],2))
