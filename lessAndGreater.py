@@ -8,5 +8,5 @@ def getMoreAndLess( arr, target):
         elif num >= target:
 		        greater=greater+1
     return [less, greater]
-print(getMoreAndLess([1,2,34,5,6,7,8,],6))
+print(getMoreAndLess([1,2,34,5,6,7,8,9],6))
 		 
