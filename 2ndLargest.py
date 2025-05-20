@@ -10,7 +10,7 @@ def second_largest_ele(arr):
         elif num> second_largest and num<largest:
             second_largest=num
     return second_largest if second_largest!=1 else -1
-print(second_largest_ele([1,3,5,3,9,7,5,9,6,1,34,43,54,11,3,6,78,76]))
+print(second_largest_ele([1]))
 
 def secLargest(arr):
     if len(arr)<2:
