@@ -14,4 +14,4 @@ def armstrongNo(num):
     else:
         return False
 
-print(armstrongNo(371))
+print(armstrongNo(3712))
